@@ -1,6 +1,11 @@
 package chapter1;
 
 public class Apple {
+	
+	public Apple(String color, Integer weight) {
+		this.color = color;
+		this.weight = weight;
+	}
 
 	private String color;
 	private Integer weight;
