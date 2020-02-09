@@ -11,15 +11,7 @@ class FileExampleTest {
 	void test() throws Exception {
 		FileExample fileExample = new FileExample();
 		
-		String oneLine = fileExample.processFile( (BufferedReader bufferedReader) -> {
-			try {
-				return bufferedReader.readLine();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			return null;
-		} );
+		String oneLine = fileExample.processFile( (BufferedReader bufferedReader) -> bufferedReader.readLine());
 		
 	}
 
