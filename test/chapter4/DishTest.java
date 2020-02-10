@@ -1,11 +1,10 @@
 package chapter4;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static java.util.Comparator.comparing;
+import static java.util.stream.Collectors.toList;
 
 import java.util.Arrays;
 import java.util.List;
-import static java.util.Comparator.comparing;
-import static java.util.stream.Collectors.toList;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
